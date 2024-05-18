@@ -4,6 +4,16 @@
 
 Esta função Lambda atualiza um item em uma tabela do DynamoDB.
 
+## Funcionalidades
+
+- Atualiza itens em uma tabela DynamoDB especificada.
+- Recebe dados de entrada através de um evento para definir a chave do item e os valores a serem atualizados.
+
+## Pré-requisitos
+
+- Python 3.x
+- Boto3
+  
 ## Estrutura do Evento de Entrada
 
 A função espera receber um evento no seguinte formato:
@@ -19,4 +29,4 @@ A função espera receber um evento no seguinte formato:
     "#attrName": "AttributeName"
   }
 }
-Dependencias: boto3
+
