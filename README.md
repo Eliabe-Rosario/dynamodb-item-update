@@ -1,4 +1,4 @@
-# dynamodb-item-update
+# (dynamodb-item-update)
 # Função Lambda: UpdateDynamoDBItem
 ## Descrição
 
